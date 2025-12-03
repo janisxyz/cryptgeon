@@ -16,7 +16,7 @@ services:
       - redis
     environment:
       # Size limit for a single note.
-      SIZE_LIMIT: 4 MiB
+      SIZE_LIMIT: 512 MiB
     ports:
       - 7777:8000
 
